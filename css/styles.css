@@ -75,6 +75,7 @@ url('../fonts/frizquadratac-italic-webfont.woff') format('woff'), url('../fonts/
 #fwslider .progress {height:4px;width:0%;background-color: #FC3;float:left;}
 #fwslider .slide_content {top:0;left:0;position: absolute;width:100%;height:482px;}
 #fwslider .slide_content_wrap {max-width:1280px;margin:0 auto;}
+#fwslider .slide_content_wrap a{max-width:1280px;height:482px;display:block;text-decoration:none}
 
 @media only screen and (min-width:720px) and (max-width: 1300px) {
     #fwslider .slide_content_wrap { }
@@ -92,10 +93,10 @@ url('../fonts/frizquadratac-italic-webfont.woff') format('woff'), url('../fonts/
 .slider-box .ttitle img:first-child{margin:-4px 25px 0 0}
 .slider-box .txt{color:#575353;font-size:15px;padding:5px 0}
 .slider-box .tools table{border-collapse:collapse;margin:0 auto}
-.slider-box .tools table td{padding:0 5px;text-align:left;font-style:italic;font-size:12px}
+.slider-box .tools table td{padding:0 5px;text-align:left;font-style:italic;font-size:12px;color:#575353}
 .slider-box .tools table td a{font-size:14px;text-decoration:none}
 .slider-box .tools table td a:hover{text-decoration:underline}
-.slider-box .tools table td.first{text-align:right;width:240px}
+.slider-box .tools table td.first{text-align:right;width:240px;font-size:14px;text-decoration:none;color:#8f51b8}
 .slider-box .tools table td.last{width:250px}
 
 .dk-box{background:url(../images/dk_bg.png) top repeat-x}
